@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--Jossue Cervantes Torres
+    ID# 1000866839-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Lab2_Theme.css">
+        <title>Fashion Free Flight</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   
+    <body onload="startTimer()">
+        <h1>Thank You for choosing Fashion Free Flight&#174;</h1>
+        <div class="message textcolor">
+            <p><img src="RealCube.png" alt="Fashion Free Flight Logo" style="float:right;width:20%;height:150pt;">Fashion Free Flight started in 2015 selling handmade
+            clothes to the online communities. Fashion Free Flight does not
+            focus its resources on generating the highest level of profit.
+            Instead, most of our resources are invested on creative minds 
+            that prioritize fashion and freedom of expression. Through out
+            the Urban streetwear community we are regarded as both innovative 
+            and affordable. </p>
+        </div>
+        <div class="table">
+            <script type="text/javascript">
+                var iValue ;
+                var sName, sTokens;
+                var sCookie;  
+                
+                //Cookie checker
+                function startTimer()
+                {
+                    checkForCookie2();
+                    timer1 = window.setTimeout(getNumber,5000);
+                }
+                //Random number for timer 
+                function getNumber()
+                {
+                    iValue = Math.floor(Math.random()*10);
+                    if (iValue%5 === 0)
+                    {
+                        window.alert("You have been randomly selected to participate\n\
+                        in a customer satisfaction survey.");
+                    }
+                }
+
+                
+              //Sets User Cookie
+                function setCookieData(value)
+                {
+                    var dExpDate = new Date();
+                    dExpDate.setTime(dExpDate.getTime() + (7 * 24 * 60 * 60 * 1000));
+                    var sExpires = "expires="+dExpDate.toUTCString();
+                    document.cookie = "username=" + value + ";" + sExpires + ";path=/";
+                }
+                //Request User cookie
+                function getCookieData()
+                {
+                    var dc = document.cookie;
+                    var prefix = "username=";
+                    var begin = dc.indexOf("; " + prefix);
+                    if (begin === -1) 
+                    {
+                        begin = dc.indexOf(prefix);
+                        if (begin !== 0) return null;
+                             }
+                        else
+                        {
+                             begin += 2;
+                            var end = document.cookie.indexOf(";", begin);
+                            if (end === -1)
+                            {
+                                end = dc.length;
+                            }
+                        }
+                        return decodeURI(dc.substring(begin + prefix.length, end));
+                }
+                function createCookie()
+                {
+                        sName = prompt("Enter Name:");
+                        
+                        if (sName !== null && sName !== "")
+                        {
+                            setCookieData(sName);
+                            document.getElementById("welcome").innerHTML = "Welcome "+sName+ "\n\
+                            please, enjoy your Fashion Free Flight Products.";
+                            document.getElementById("anchor1").innerHTML = "";
+                        }                 
+                }
+                function checkForCookie()
+                {
+                    var user = getCookieData();
+                    
+                    if (user !== null)
+                    {
+                       
+                        document.getElementById("welcome").innerHTML = "Welcome back "+user+ "\n\
+                       , please enjoy your Fashion Free Flight Products.";
+                        document.getElementById("anchor1").innerHTML = "If you are not "+user+", click here.";
+                    }  
+                    else
+                    {
+                      createCookie();
+                    }        
+                }
+                
+                //Sets cookie based on 
+                function checkForCookie2()
+                {
+                    var user = getCookieData();
+                    
+                    if (user !== null)
+                    {   
+                        document.getElementById("welcome").innerHTML = "Welcome back "+user+ ", please enjoy your Fashion Free Flight Products.";
+                        document.getElementById("anchor1").innerHTML = "If you are not "+user+", click here.";
+                        document.getElementById("anchor1").setAttribute("href","javascript:createCookie()");
+                    }  
+                }          
+            </script> 
+            <br>
+            <hr>
+            <p id="welcome">
+               Welcome stranger, we hope you have a good experience with our products. 
+            </p>
+            
+        </div>
+        <div class="message2">
+            <a id="anchor1" href="javascript:checkForCookie()">Click here to enter your name.</a>            
+        </div>
+        <hr>
+        <img src="lines.png" alt="lines image" class="img">
+ 
+        
+        
+    </body>
+</html>

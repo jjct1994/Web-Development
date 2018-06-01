@@ -1,0 +1,20 @@
+[
+	{
+		"prodID": "1",
+		"prodName": "Italian Roast",
+		"prodDesc": "This is a dark roast coffee with bold flavor.",
+		"prodPrice": 8.95
+	},
+	{
+		"prodID": "2",
+		"prodName": "Columbain",
+		"prodDesc": "This is a medium roast coffee with a rich, full-bodied flavor.",
+		"prodPrice": 8.95
+	},
+	{
+		"prodID": "3",
+		"prodName": "Breakfast Blend",
+		"prodDesc": "This is a medium roast coffee with mild, smooth flavor.",
+		"prodPrice": 7.95
+	}
+]

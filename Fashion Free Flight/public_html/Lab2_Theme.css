@@ -1,0 +1,54 @@
+/*Jossue Cervantes Torres
+    ID#1000866839*/
+
+        h1  {text-align: center;}
+        h2  {text-align: center;}
+       
+        ul  {display: table;
+             text-align: left;}
+       
+        ol  {display:table;
+            text-align: left;}
+        p   {text-align: center;}
+        
+        body {
+              background-color: #e0e2e4;
+              background-image: url("F3LO.png");
+              background-position: center;
+              background-position-y: 0;
+              background-repeat: no-repeat;}
+        /*classes for individual modifications*/
+        .center {margin: auto;
+                width: 20%;}
+        .center2{margin: auto;
+                 width: 35%}
+       
+        .message{text-align: center;
+                 width: 70%;
+                 margin-left:15%;
+                 font-size: 20pt;
+                 font: monospace;}
+        .message2{text-align: center;
+                 width: 70%;
+                 margin-left:15%;
+                 font-size: 13pt;}
+        .textcolor{color:  #662200;}
+        .button{border:none;
+                background-color:#662200;
+                cursor: pointer;
+                color:white;
+                border:none;
+                margin:4px 1.25px;
+                text-align:center;
+                padding: 10px 16px;}
+        .table  {margin: 0 auto;
+                 width:70%;}
+        .td1    {text-align:right;}
+        .td2    {text-align:left;}
+        .img{
+            width: 110%;
+            margin-left: -5%;
+            margin-right: -5%;
+        }
+   
+

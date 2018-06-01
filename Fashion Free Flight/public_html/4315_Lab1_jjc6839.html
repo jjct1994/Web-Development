@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--Jossue Cervantes Torres
+    ID# 1000866839-->
+<html>
+    <head>
+        
+        <title>FashionFreeFlight&#174;</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        /* css for major parts of page*/
+        h1  {text-align: center;}
+        h2  {text-align: center;}
+       
+        ul  {display: table;
+             text-align: left;}
+       
+        ol  {display:table;
+            text-align: left;}
+        p   {text-align: center;}
+        
+        body {
+              background-color: #e0e2e4;
+              background-image: url("F3LO.png");
+              background-position: center;
+              background-repeat: no-repeat;}
+        /*classes for individual modifications*/
+        .center {margin: auto;
+                width: 20%;}
+        .center2{margin: auto;
+                 width: 35%}
+       
+        .message{text-align: center;
+                 width: 70%;
+                 margin-left:15%;
+                 font-size: 20pt;
+                 font: monospace;}
+        .textcolor{color:  #662200;}
+        .button{border:none;
+                background-color:#662200;
+                cursor: pointer;
+                color:white;
+                border:none;
+                margin:4px 1.25px;
+                text-align:center;
+                padding: 10px 16px;}
+        .table  {margin: 0 auto;
+                 width:70%;}
+        .td1    {text-align:right;}
+        .td2    {text-align:left;}
+      
+        
+     
+        
+        
+        
+    </style>
+    </head>
+    
+    <body>
+        
+
+        <h1>Thank You for Choosing Fashion Free Flight&#174;</h1>
+        <div class="message textcolor center">
+        <p><img src="RealCube.png" alt="Fashion Free Flight Logo" style="float:right;width:20%;height:150pt;">
+           You have been randomly selected to participate in our 
+        Customer Satisfaction Survey. Please tell us a little bit
+        about yourself by filling in the requested information at
+        the top of the survey, then respond to the survey option
+        statements based on your experiences with Fashion Free Flight&#174;.
+        To show our appreciation, we will send you an official F<sup>3</sup> T-shirt certificate.</p>
+        <hr>
+        
+        </div>
+        <form method="post" action="mailto:jossue.cervantestorres@mavs.uta.edu">
+            <input type="hidden" name="recipient" value="jossue.cervantestorres@mavs.uta.edu">
+            <input type="hidden" name="subject" value="Free T-Shirt Certificate">
+ 
+          
+            <div class="table">
+            <table class="table">
+                <caption style="font-size:18pt"><b>Personal Information</b></caption>
+            <tr>
+                <td class="td1">
+                    <label><b>First Name:</b>
+                        <input name="fname" type = "text" size= "20" maxlength="20" required autofocus>
+                    </label>
+                </td>
+         
+                <td class="td2">
+                    <label><b>Last Name:</b>
+                        <input name="lname" type="text" size="20" maxlength="20" required>       
+                    </label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="td1">
+                    <label><b>Email Address:</b>
+                     <input name="email" type="email" size="20" maxlength="30" required>
+                     </label>
+                </td>
+                <td></td>
+            </tr>
+          
+            <tr>
+                <td class="td1"> 
+                    <b>Gender:</b>
+                    <label>Female
+                        <input type="radio" name="gender" value="Female">
+                    </label>
+                    <label>Male
+                        <input type="radio" name="gender" value="Male">
+                    </label>
+                </td>
+            
+            <td class="td2">
+                <b>Age Group:</b>
+                Under 21<input type="checkbox" name="Age" value="under 21">
+                21-40<input type="checkbox" name="Age" value="21-40">
+                Over 40<input type="checkbox" name="Age" value="over 40">
+             </td>    
+             </tr>
+            </table>
+                <hr>
+            </div>
+        
+        
+       
+        <h2>Please respond to the opinion statements using the following scale:</h2>
+        <div class="center textcolor">
+        <ul>
+            <li>1 = Strongly Agree</li>
+            <li>2 = Somewhat Agree</li>
+            <li>3 = Neither Agree nor Disagree</li>
+            <li>4 = Somewhat Disagree</li>
+            <li>5 = Strongly Disagree</li>
+        </ul>
+        </div>
+        <div class="center2 textcolor">
+        <ol type="1">
+            <li>Fashion Free Flight&#169; clothes are always comfortable.
+                <select name="comfortability rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                
+            </li>
+            <li>Fashion Free Flight&#169; has aesthetic appeal.
+                <select name="Aesthetic rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </li>
+            <li>Fashion Free Flight&#169; clothes are reasonably priced.
+                <select name="Price rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </li>
+            <li>Fashion Free Flight&#169; clothes are of highest quality.
+                <select name="Quality rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </li>
+            <li>Overall, I am very satisfied with F<sup>3</sup> and its products.
+                <select name="Overall rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </li>
+        </ol>
+ 
+        <input type="submit" class="button" >
+        <input type="reset" class="button">
+        </div>
+      
+        </form>
+        
+        
+    </body>
+</html>

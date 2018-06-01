@@ -1,0 +1,88 @@
+[
+    {
+        
+	"prodID": "1",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 12.99
+        
+    },
+    {
+
+	"prodID": "2",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 14.99
+        
+    },
+    {
+
+	"prodID": "3",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 99.99
+        
+    },
+    {
+
+	"prodID": "4",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 12.99
+        
+    },
+    {
+
+	"prodID": "5",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 78.99
+        
+    },
+    {
+
+	"prodID": "6",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 23.99
+  
+    },
+    {
+
+	"prodID": "7",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 89.99
+    },
+    {
+
+	"prodID": "8",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 49.99
+    },
+    {
+      
+	"prodID": "10",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 59.99
+    },
+    {
+        
+	"prodID": "20",
+        "Image":"https://mavspace.uta.edu/people/j/jj/jjc6839/4315_Lab3_jjc6839/images/image2.jpg",
+	"prodName": "FFF Joggers",
+        "prodDesc": "Every day joggers for both men and women",
+	"prodPrice": 39.99
+    }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Jossue Cervantes Torres">
+    <link rel="stylesheet" type="text/css" href="Lab2_Theme.css">
+    <title>FFF Product Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <ul>
+        <li><a href="4315_Lab2_jjc6839.html">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+    <h1>Fashion Free Flight&#174;</h1>
+    <div>(Click the Column Headings to Sort)</div>
+
+	<table id = "prodTable">
+		<thead>
+			<tr>
+                            <th><button id = "btnID">Product ID</button></th>
+                            <th><button id = "btnName">Name</button></th>
+                            <th><button id = "btnDesc">Description</button></th>
+                            <th><button id = "image">Image</button></th>
+                            <th><button id = "btnPrice">Price</button></th> 
+                            <th><button id = "btnQuantity">Quantity</button></th> 
+			</tr>
+		</thead>
+
+		<tbody id = "tbodyRows">
+		</tbody>
+	</table>
+        <p>
+            <button onclick="saveQty()">Submit</button>
+            <button onclick="clearQty()">Clear</button>
+	</p>
+
+            <script src = "4315_Lab3_jjc6839.js"> </script>
+</body>
+</html>
