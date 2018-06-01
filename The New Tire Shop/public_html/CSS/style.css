@@ -1,0 +1,65 @@
+/*
+Styling sheet for website
+*/
+
+/*Font from business cards*/
+@font-face{
+    font-family:"NHLDucks";
+    src:url("Fonts/NHLDucks.ttf");
+    src:url("Fonts/NHLDucks.svg")format(svg), 
+        url("Fonts/NHLDucks.eot")format(eot);
+}
+h1{
+    font-family: NHLDucks;
+    color:#b70000;
+    font-size: 500%;
+    font-weight: bold;
+    text-shadow:3px 3px 1px #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.hrline1{border:0;
+    margin-top:0;
+    margin-bottom:0;
+    height:7px;
+    background:#0101ff;
+    margin-left:-5%;
+    margin-right:-5%;
+}
+.hrline2{border:0;
+    margin-top:0;
+    margin-bottom:0;
+    height:7px;
+    background:#ffffff;
+    margin-left:-5%;
+    margin-right:-5%;
+}
+.hrline3{border:0;
+    margin-top:0;
+    margin-bottom:0;
+    height:7px;
+    background:#b70000;
+    margin-left:-5%;
+    margin-right:-5%;
+}
+
+
+body{background:#101010;
+     background-image:
+         url("Fonts/wheel-spin.gif");
+     background-position:center;
+     background-position-y: 60%;
+     background-repeat:no-repeat;
+     background-size: 30%;
+     
+    
+}
+
+canvas{border:1px solid white;
+       
+        }
+        
+
+
+
