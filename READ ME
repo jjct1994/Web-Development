@@ -1,0 +1,16 @@
+Website for Fictisious Clothing line
+
+
+Includes:
+Lab 1 - The initial Introduction to a ficticious clothing line website
+      - Uses cookies to gather names
+      - Randomizes a timer to produce a pop up to a Survey
+     
+Lab 2 - The Survey asks for some basic information
+      - Sends data to specific email
+      
+Lab 3 - Contains table and requests JSON data to simulate clothing information
+      - JSON no longer available online
+      - JS file, uses HTTP request, parses requested JSON, parses and organizes data in different manners
+      - Data is apened to the Table
+      - With option to buy by quantity and return total worth of purchase
